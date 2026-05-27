@@ -107,6 +107,18 @@ ul {
   color: white;
 }
 
+.btn-whatsapp {
+  background-color: #25D366;
+  color: white;
+  border: 1px solid #25D366;
+}
+.btn-whatsapp:hover {
+  background-color: #1EBE57;
+  border-color: #1EBE57;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
 /* Cards */
 .card {
   background-color: var(--cards);

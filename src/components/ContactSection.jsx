@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Navigation } from 'lucide-react';
+import { MapPin, Phone, Mail, Navigation, MessageCircle } from 'lucide-react';
 import './ContactSection.css';
 
 const ContactSection = () => {
@@ -51,6 +51,14 @@ const ContactSection = () => {
                 className="btn btn-outline contact-btn"
               >
                 <Navigation size={18} /> Get Directions
+              </a>
+              <a 
+                href="https://wa.me/919848414764?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20Vigneswara%20Oils%20And%20Enterprises%20and%20your%20products/services." 
+                target="_blank" 
+                rel="noreferrer"
+                className="btn btn-whatsapp contact-btn"
+              >
+                <MessageCircle size={18} /> WhatsApp
               </a>
             </div>
           </div>
