@@ -7,19 +7,19 @@ const ProductsSection = () => {
       id: 1,
       name: 'PM Oil (Palmolein Oil)',
       description: 'Premium quality refined palmolein oil, perfect for commercial frying and cooking due to its high oxidative stability.',
-      image: 'https://images.unsplash.com/photo-1628186178351-4e488d551ba9?auto=format&fit=crop&w=600&q=80',
+      image: '/palmolein-oil.jpg',
     },
     {
       id: 2,
       name: 'SF Oil (Sunflower Oil)',
       description: 'Light, healthy, and rich in Vitamin E. Ideal for everyday cooking, baking, and salad dressings.',
-      image: 'https://images.unsplash.com/photo-1596647907575-52d3ce602693?auto=format&fit=crop&w=600&q=80',
+      image: '/sunflower-oil.jpg',
     },
     {
       id: 3,
       name: 'GN Oil (Groundnut Oil)',
       description: 'Authentic filtered groundnut oil that adds a rich, nutty flavor to traditional dishes. 100% natural and pure.',
-      image: 'https://images.unsplash.com/photo-1526068222955-f2d4f24f5a2b?auto=format&fit=crop&w=600&q=80',
+      image: '/groundnut-oil.jpg',
     }
   ];
 
